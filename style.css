@@ -1,0 +1,142 @@
+
+body {
+    margin: 0;
+  }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: grey;
+}
+li{
+    list-style: none;
+}
+
+.pt-5{
+    padding-top: 6rem !important;
+}
+.fs-1{
+    font-size: 4rem !important;
+}
+.fs-2{
+    font-size: 4rem !important;
+}
+.img1 img{
+    width: 100%;
+   
+}
+.rounded{
+    border-radius: 30px !important;
+}
+.num{
+    font-size: 4rem;
+}
+.about{
+    height: 100vh;
+}
+
+/*custmize*/
+@media (max-width: 576px) {
+    .custom-fs-sm {
+      font-size: 2.4rem !important; /* Adjust the size for small screens */
+    }
+    .col-md-8{
+        text-align: center;
+        padding: 50px 40px;
+    }
+    .homeb{
+        font-size: 1rem !important;
+        padding: 10px 40px;
+    }
+    
+    .homepage{
+        padding-top: 5rem;
+    }
+    .fs-2{
+        font-size: 2.5rem !important;
+    }
+    .about{
+        height: auto;
+    }
+    .min{
+        margin: 0 auto !important;
+    }
+    .quiz{
+        text-align: center;
+    }
+    .ab{
+        padding: 0 2rem !important;
+        text-align: justify;
+    }
+    .pro{
+        padding-top: 2rem !important;
+    }
+   
+   
+  }
+  @media (max-width: 768px){
+    .col-md-8{
+        text-align: center;
+        padding: 50px 40px;
+    }
+    .homepage{
+        padding-top: 5rem;
+    }
+    .about img{
+        display: none;
+    }
+    .abouttxt h2{
+        font-size: 2rem !important;
+        padding: 20px 0 !important;
+    }
+    .abouttxt h3{
+        font-size: 3rem !important;
+    }
+    .abouttxt p{
+        padding: 30px 0 !important;
+        font-size: 0.8rem !important;
+    }
+    .min{
+        margin: 0 auto !important;
+    }
+    .quiz{
+        text-align: center;
+    }
+    
+   
+  }
+  @media (max-width: 992px){
+    .col-md-8{
+        padding-top: 0px !important;
+        
+    }
+    .homepage{
+        padding-top: 5rem;
+    }
+    .homeh
+    {
+        font-size: 2.3rem !important;
+    }
+    .homeb{
+        font-size: 1rem !important;
+        padding: 10px 40px;
+    }
+    .abouttxt{
+        margin: 0 !important;
+        text-align: center;
+    }
+    .abouttxt p{
+        font-size: 10px;
+    }
+    .abouttxt i{
+        padding: 0 !important;
+    }
+    .min{
+        margin: 0 auto !important;
+    }
+   
+  }
+
+
